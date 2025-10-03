@@ -6,13 +6,11 @@ sites:
   - name: vow
     url: https://vow.my.id
     headers:
-    - key: X-Monitor
-      value: upptime
+      - "X-Monitor: upptime"
   - name: Secret
     url: $SECRET_SITE
     headers:
-    - key: X-Monitor
-      value: upptime
+      - "X-Monitor: upptime"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
