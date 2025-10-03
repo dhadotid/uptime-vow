@@ -5,8 +5,12 @@ repo: uptime-vow # The name of this repository
 sites:
   - name: vow
     url: https://vow.my.id
+    headers:
+      X-Monitor: upptime
   - name: Secret
     url: $SECRET_SITE
+    headers:
+      X-Monitor: upptime
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
